@@ -26,39 +26,40 @@ header {
   color: #212121;
 }
 
-.navigation-list > li,
+.navigation-list,
 .footer-contact-details,
 .cards,
 .header-contact-details,
 .buttons {
   list-style: none;
 }
-.navigation-list > li > a {
+
+.navigation-link {
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
 }
-.navigation-list > li > a:hover {
+
+.navigation-link:focus {
   color: #2196f3;
 }
-
-.navigation-list > li > a:focus {
+.navigation-link:hover {
   color: #2196f3;
 }
-
-.header-contact-details > li > a {
+.header-contact-link {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
 }
-.header-contact-details > li > a:hover {
+
+.header-contact-link:hover {
   color: #2196f3;
 }
-.header-contact-details > li > a:focus {
+.header-contact-link:focus {
   color: #2196f3;
 }
 
-.buttons > li > button {
+.button {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
@@ -67,12 +68,14 @@ header {
   background: #f5f4fa;
   border-radius: 4px;
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.buttons > li > button:hover {
+.button:hover {
   background: #2196f3;
   border-radius: 4px;
 }
-.buttons > li > button:focus {
+.button:focus {
   background: #2196f3;
   border-radius: 4px;
 }
@@ -114,23 +117,25 @@ footer {
   content: "Studio";
   color: #ffffff;
 }
-.footer-contact-details > li > a {
+.footer-contact-link {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
 }
-.footer-contact-details > li > a:hover {
+.footer-contact-link:hover {
   color: #2196f3;
 }
-.footer-contact-details > li > a:focus {
+.footer-contact-link:focus {
   color: #2196f3;
 }
 
 #address {
   letter-spacing: 0.03em;
   color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
 }
 #address:hover {
   color: #2196f3;
