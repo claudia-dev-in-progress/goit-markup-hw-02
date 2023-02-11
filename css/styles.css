@@ -1,0 +1,137 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+header {
+  background: #ffffff;
+}
+
+.webstudio-header {
+  color: #2196f3;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.93;
+  letter-spacing: 0.03em;
+}
+
+.webstudio-header::after {
+  content: "Studio";
+  color: #212121;
+}
+
+.navigation-list > li,
+.footer-contact-details,
+.cards,
+.header-contact-details,
+.buttons {
+  list-style: none;
+}
+.navigation-list > li > a {
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.navigation-list > li > a:hover {
+  color: #2196f3;
+}
+
+.navigation-list > li > a:focus {
+  color: #2196f3;
+}
+
+.header-contact-details > li > a {
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.header-contact-details > li > a:hover {
+  color: #2196f3;
+}
+.header-contact-details > li > a:focus {
+  color: #2196f3;
+}
+
+.buttons > li > button {
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border: none;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.buttons > li > button:hover {
+  background: #2196f3;
+  border-radius: 4px;
+}
+.buttons > li > button:focus {
+  background: #2196f3;
+  border-radius: 4px;
+}
+
+.card-image {
+  width: 370px;
+  height: 294px;
+}
+.card-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.card-description {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  background: #2f303a;
+}
+.webstudio-footer {
+  color: #2196f3;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.93;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.webstudio-footer::after {
+  content: "Studio";
+  color: #ffffff;
+}
+.footer-contact-details > li > a {
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+.footer-contact-details > li > a:hover {
+  color: #2196f3;
+}
+.footer-contact-details > li > a:focus {
+  color: #2196f3;
+}
+
+#address {
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+#address:hover {
+  color: #2196f3;
+}
